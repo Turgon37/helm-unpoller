@@ -2,6 +2,10 @@
 
 replicaCount: 1
 
+extraEnv: []
+# - name: ENABLE_SERVER_STORAGE
+#   value: "false"
+
 image:
   repository:  "ghcr.io/unpoller/unpoller"
   pullPolicy: IfNotPresent
